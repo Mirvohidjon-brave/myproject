@@ -1,0 +1,36 @@
+.main_header__container{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    align-items: center;
+}
+
+.main_header__list{
+    display: flex;
+    gap: 42px;
+    justify-content: space-between;
+}
+.main_header__link{
+    color: #828282;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+}
+.main_header__btn{
+    color: #FFF;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 1.5px;
+width: 98px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #828282;
+border: none;
+}
